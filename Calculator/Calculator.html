@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js"></script>
+</head>
+
+<body>
+    <div id="containor">
+        <div class="input">
+            <input type="text" id="inp" autocomplete="off">
+        </div>
+        <div id="buttons">
+
+            <button value="" onclick="del(0)">AC</button>
+            <button value="" onclick="del(1)">DEL</button>
+            <button value="(" onclick="inp('(')">(</button>
+            <button value=")" onclick="inp(')')">)</button>
+
+            <button value="1" onclick="inp(1)">1</button>
+            <button value="2" onclick="inp(2)">2</button>
+            <button value="3" onclick="inp(3)">3</button>
+            <button value="+" onclick="inp('+')">+</button>
+
+            <button value="4" onclick="inp(4)">4</button>
+            <button value="5" onclick="inp(5)">5</button>
+            <button value="6" onclick="inp(6)">6</button>
+            <button value="-" onclick="inp('-')">-</button>
+
+            <button value="7" onclick="inp(7)">7</button>
+            <button value="8" onclick="inp(8)">8</button>
+            <button value="9" onclick="inp(9)">9</button>
+            <button value="*" onclick="inp('*')">x</button>
+
+            <button value="0" onclick="inp(0)">0</button>
+            <button value="." onclick="inp('.')">.</button>
+            <button value="/" onclick="inp('/')">/</button>
+            <button value="=" onclick="calculate()">=</button>
+        </div>
+    </div>
+</body>
+
+</html>
