@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>Weather App</header>
+
+    <div id="inputbox">
+
+        <div id="viewBox">
+            Show Weather in :
+            <select id="viewSelect">
+                <option value="day">Day</option>
+                <option value="hours">Hours</option>
+            </select>
+        </div>
+
+
+        <input type="text" placeholder="Enter City" id="input" autocomplete="off">
+        <button id="location">
+            <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" width="30px">
+        </button>
+        <button id="btn">Search</button>
+    </div>
+    <div id="suggestionBox"></div>
+    <div id="loading"></div>
+    <p id="msg"></p>
+    <p id="cityName"></p>
+    <div id="currentConditions"></div>
+    <div id="alerts"></div>
+
+    <div id="weatherBox">
+    </div>
+    <div id="popup">
+        <h2>x</h2>
+        <div id="details"></div>
+    </div>
+
+</body>
+
+</html>
