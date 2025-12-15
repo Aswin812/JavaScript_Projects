@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.input input{
+    width: 60px;
+    height: 40px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.time{
+    font-size: 60px;
+}
+
+
+.buttons button{
+    padding: 10px 23px;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 18px;
+}
