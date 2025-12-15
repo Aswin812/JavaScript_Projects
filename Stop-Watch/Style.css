@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stopwatch{
+    font-size: 60px;
+}
+
+.buttons button{
+    padding: 10px 23px;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 5px;
+}
