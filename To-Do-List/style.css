@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.containor {
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    background-color: #e4e1e1;
+    padding-right: 20%;
+}
+
+.containor h1 {
+    margin: 30px;
+}
+
+.containor .inputBox {
+    align-self: center;
+    font-size: 20px;
+}
+
+.inputBox input {
+    padding: 10px 30px 10px 10px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: #eeebeb;
+}
+
+.add {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: #1ABC9C;
+    color: white;
+}
+
+.tasks {
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 70px;
+}
+
+.task {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.task p {
+    font-size: 20px;
+}
+
+.task div button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 8px;
+    color: white;
+}
+
+.addTask {
+    display: none;
+}
+
+.delete {
+    background-color: #E74C3C;
+}
+
+.done {
+    background-color: #1ABC9C;
+}
+
+.edit {
+    background-color: #F39C12;
+}
